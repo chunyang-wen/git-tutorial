@@ -13,12 +13,13 @@ a {
 }
 
 .section {
+    margin:10% auto 0 auto;
     background-color:rgb(26, 188, 156);
 }
 .title {
     width:75%;
     background-color:#fff;
-    margin:20% auto 0 auto;
+    margin:10% auto 0 auto;
     padding:18px 0;
     font-size:36px;
     color:#34495e;
