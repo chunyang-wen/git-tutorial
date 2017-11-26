@@ -2,4 +2,4 @@
 
 A basic tutorial for git
 
-Thanks `PPTBox`
+Thanks [landslide](https://github.com/adamzap/landslide)
