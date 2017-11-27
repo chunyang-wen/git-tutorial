@@ -133,7 +133,7 @@ Well, not all my changes is correct. So I need a way to reset or revert my chang
 
 + This will reset my repository to the specified commit and leave all the changes in the
 working directory. If you want to drop changes to specific file after reset,
-        use **git checkout -- file-name**
+use `git checkout -- file-name`
     + If you want to clean everything, be carefull with this option:
     + git reset --hard commit-to-reset-to
 
@@ -169,12 +169,13 @@ template: inverse
 
 ## Thanks
       </textarea>
-    <script src="./js/remark-0.5.3.min.js">
+    <script src="./js/remark-0.14.0.min.js">
     </script>
     <script>
 var slideshow = remark.create({
     highlightStyle: 'monokai',
-    highlightLanguage: 'remark'
+    highlightLanguage: 'remark',
+    highlightLines: true
 });
     </script>
   </body>
